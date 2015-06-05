@@ -1,0 +1,33 @@
+{
+  "name": "diff2",
+  "version": "0.0.1",
+  "description": "A javascript text diff utils.",
+  "main": "diff.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "chalk": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Bacra/node-diff2.git"
+  },
+  "keywords": [
+    "diff",
+    "text",
+    "word",
+    "long"
+  ],
+  "author": "Bacra Woo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bacra/node-diff2/issues"
+  },
+  "homepage": "https://github.com/Bacra/node-diff2"
+}
