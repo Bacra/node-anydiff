@@ -6,11 +6,10 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
+  "devDependencies": {
     "cli-table": "^0.3.1",
     "chalk": "^1.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "node test/index.js"
   },
@@ -29,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/Bacra/node-diff2/issues"
   },
-  "homepage": "https://github.com/Bacra/node-diff2"
+  "homepage": "https://github.com/Bacra/node-diff2",
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
 }
