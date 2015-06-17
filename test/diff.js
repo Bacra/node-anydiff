@@ -1,17 +1,23 @@
 require('debug').enable('*');
+var assert = require('assert');
 
 var diff = require('../lib/diff');
 var Table = require('cli-table');
 
-function tableDiff(oldStrArr, newStrArr) {
-	var diffData = diff(oldStrArr, newStrArr);
+function tableDiff(oldStr, newStr) {
+	var diffData = diff(oldStr, newStr);
 	var xArr = [];
 	var yArr = [];
+	var stArr = [];
 	diffData.forEach(function(item) {
 		xArr.push(item.xString());
 		yArr.push(item.yString());
+		stArr.push(item.status);
 	});
-	console.log(oldStrArr, newStrArr, xArr, yArr);
+	console.log(oldStr, newStr, xArr, yArr, stArr);
+
+	assert.equal(oldStr, xArr.join(''))
+	assert.equal(newStr, yArr.join(''))
 }
 
 
