@@ -5,7 +5,7 @@ var diff = require('../lib/diff');
 var Table = require('cli-table');
 
 function tableDiff(oldStr, newStr) {
-	var diffData = diff(oldStr, newStr);
+	var diffData = diff(oldStr, newStr).data;
 	var xArr = [];
 	var yArr = [];
 	var stArr = [];
