@@ -21,6 +21,7 @@ function tableDiff(oldStr, newStr) {
 }
 
 
+tableDiff('abcd', '');
 tableDiff('abcd', 'efghi');
 tableDiff('abbbc', 'cabbc');
 tableDiff('aabbbcbbc', 'cabbcaa');
