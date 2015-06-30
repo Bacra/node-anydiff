@@ -16,11 +16,13 @@ function tableDiff(oldStr, newStr) {
 	});
 	console.log(oldStr, newStr, xArr, yArr, stArr);
 
+	// 判断结果是否正确
 	assert.equal(oldStr, xArr.join(''))
 	assert.equal(newStr, yArr.join(''))
 }
 
 
+tableDiff('abcd', '');
 tableDiff('abcd', 'efghi');
 tableDiff('abbbc', 'cabbc');
 tableDiff('aabbbcbbc', 'cabbcaa');

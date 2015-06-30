@@ -1,5 +1,5 @@
 {
-  "name": "diff2",
+  "name": "ldiff",
   "version": "0.0.1",
   "description": "A javascript text diff utils.",
   "main": "diff.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Bacra/node-diff2.git"
+    "url": "git@github.com:Bacra/node-ldiff.git"
   },
   "keywords": [
     "diff",
@@ -26,9 +26,9 @@
   "author": "Bacra Woo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Bacra/node-diff2/issues"
+    "url": "https://github.com/Bacra/node-ldiff/issues"
   },
-  "homepage": "https://github.com/Bacra/node-diff2",
+  "homepage": "https://github.com/Bacra/node-ldiff",
   "dependencies": {
     "debug": "^2.2.0"
   }
