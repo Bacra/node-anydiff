@@ -1,5 +1,5 @@
 {
-  "name": "ldiff",
+  "name": "anydiff",
   "version": "0.0.1",
   "description": "A javascript text diff utils.",
   "main": "diff.js",
@@ -7,15 +7,16 @@
     "test": "test"
   },
   "devDependencies": {
+    "chalk": "^1.0.0",
     "cli-table": "^0.3.1",
-    "chalk": "^1.0.0"
+    "mocha": "^2.5.3"
   },
   "scripts": {
-    "test": "node test/index.js"
+    "test": "mocha test/test_*"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Bacra/node-ldiff.git"
+    "url": "git@github.com:Bacra/node-anydiff.git"
   },
   "keywords": [
     "diff",
@@ -26,9 +27,9 @@
   "author": "Bacra Woo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Bacra/node-ldiff/issues"
+    "url": "https://github.com/Bacra/node-anydiff/issues"
   },
-  "homepage": "https://github.com/Bacra/node-ldiff",
+  "homepage": "https://github.com/Bacra/node-anydiff",
   "dependencies": {
     "debug": "^2.2.0"
   }
