@@ -1,8 +1,8 @@
 {
   "name": "anydiff",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A javascript text diff utils.",
-  "main": "diff.js",
+  "main": "./lib/diff.js",
   "directories": {
     "test": "test"
   },
